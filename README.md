@@ -1,6 +1,6 @@
 # login-page-icon-input
 
-Página de login responsiva com icones referentes ao tipo de input
+Página de login responsiva com icones referentes ao tipo de input dentro do placeholder.
 
 ### web
 
