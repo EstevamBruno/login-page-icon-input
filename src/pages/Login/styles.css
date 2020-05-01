@@ -1,0 +1,85 @@
+.container-fluid {
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: #05b2dc;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form .input-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+form .input-group span {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #05b2dc;
+  display: flex;
+  justify-content: flex-start;
+}
+
+form .input-group input {
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 24px;
+  border-radius: 8px;
+  background: #24292e;
+  color: #fff;
+  font-family: 'FontAwesome';
+}
+
+form .input-group input:focus {
+  border-color: #05b2dc;
+  box-shadow: 0 0 3px #05b2dc;
+}
+
+form .buttons {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form .buttons button {
+  width: 48%;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+form .buttons button:hover {
+  opacity: 0.8;
+}
+
+form .buttons .submit-button {
+  background: #05b2dc;
+  border-color: #05b2dc;
+  color: #fff;
+}
+
+form .buttons button + button {
+  background: #24292e;
+  border-color: #fff;
+  color: #fff;
+}
